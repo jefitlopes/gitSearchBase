@@ -1,0 +1,127 @@
+body{
+    background: var(--color-grey-2);
+}
+
+.profile__page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.6875rem;
+    padding: 0rem;
+    margin: 3.8125rem 0rem;
+}
+
+.user__info{
+    display: flex;
+    flex-direction: row;
+    gap: 365px;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.user__head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.user__img{
+    width: 5rem;
+    height: 5rem;
+    border: 0.125rem solid #D6336C;
+    border-radius: 9.375rem;
+}
+
+.head__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+.user__name{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    color: var(--color-grey-7);
+}
+
+.user__title{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: var(--color-grey-8);
+}
+
+.change__user{
+    width: 9.375rem;
+    height: 2.375rem;
+    background: var(--color-grey-10);
+    border-radius: 0.5rem;
+    border-style: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0rem;
+    color: var(--color-grey-7);
+}
+
+ul{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.375rem;
+        width: 68%;
+}
+
+.user__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 23.8125rem;
+    height: 15.1875rem;
+    border: 0.125rem solid var(--color-grey-7);
+    border-radius: 0.5rem;
+    padding: 1.6875rem;
+}
+
+.user__content:hover{
+    background: var(--color-grey-1);
+}
+
+.repo__name{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--color-grey-7);
+}
+
+.repo__description{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 150%;
+    color: var(--color-grey-9);
+}
+
+.repo__access{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    gap: 0.625rem;
+    width: 5.8125rem;
+    height: 1.75rem;
+    background: var(--color-grey-2);
+    border: 0.0625rem solid var(--color-grey-7);
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: var(--color-grey-7);
+    cursor: pointer;
+}
+
+.repo__access:hover{
+    background: var(--color-brand-2);
+    border: 0.0625rem solid var(--color-brand-2);
+}
